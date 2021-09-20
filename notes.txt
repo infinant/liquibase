@@ -1,0 +1,43 @@
+Endpoint:
+postgresqlfortesting.cqtyogf5y55b.us-east-2.rds.amazonaws.com
+
+Port:
+5432
+
+Database:
+test
+
+Username:
+infinant
+
+Pass:
+infinant
+
+
+-------------------------------------------------------------------
+
+cmd
+liquibase --version
+
+VISUAL STUDIO CODE
+
+open folder
+C:\Users\JoseAlegre\OneDrive - Infinant Inc\Liquibase
+
+
+liquibase.properties
+--------------------
+changeLogFile=
+#liquibase.command.url=jdbc:postgresql://<host>:<port>/<dbname>
+ liquibase.command.url=jdbc:postgresql://postgresqlfortesting.cqtyogf5y55b.us-east-2.rds.amazonaws.com:5432/test
+
+liquibase.command.username: infinant
+liquibase.command.password: infinant
+
+liquibase.pro.licensekey:ABwwGgQU87P+XwIWGGQYTre2iucm3GHGMT4CAgQAAXP6wAAk1uSseaETVEJUceYNaEpB1lzciEqBiLUKZ1X9FGLtZ+HGP8cqHcgXJ6B3n60fuWTapy64sTqG/EpY7KlUXqW0BtLywf4XmjWalH4WvJRc85PLRlm3o0mvvdH4B6hTeXr5JqjpsytBIahIyyuC97DZek9bpVlGw2hcp7itsRxdSwOqGtgmv5sVrOtsB8IACpHEO5JenHlnrYUgzd6qZlPbcrms4ChS8/rO8Iznh9/Ogiin9ZLvxHAAHcdl9xtU1XtpkW77L1BY+wTxf8aPSWpmbAWZl7oDlbmmWGn+kvWXJQR61JpJoy9NmSX2nES0VSiTZhPsgjdeCpB1Zky2mrx9W20h+emYutoPoWk/ZVUH9It6OJIcGGC2SMt6zSrRlm/HM8pUT+drDef+Nm6DynqB0CcrVu1/31rnKsOhEhNzqImVVMsf4Zr/EaCrgJEADP754PKDKkRdKGW8/EbCB2uzSaXdNyN15gkTyTkVW131o9SeQQWjy3efGvy4dGpDVXA2HD/zE5OrxqzgFhVQIVDz1k+kHDKNabb1VFLMjOtSj3hYYky6hrFXayB9b/06EaYlQ8XLgCGQELeMBpOLm+ziXH7lGUBBAe/FDb0lg+g7DEYn8tgL+0yXN34yOwbGx4Z/TaUh15ah8dSKiA==
+
+-------------------------------------------------------------------
+
+
+Terminal:
+liquibase status --verbose
