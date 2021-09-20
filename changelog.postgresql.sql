@@ -33,3 +33,7 @@ alter table person add column age int
 --changeset OscarG:6-alterTableCompanyAddColumnPhone
 alter table company add column phone varchar(20)
 ;
+
+--changeset PepeA:7-alterTableCompanyAddColumnEmail
+alter table company add column email varchar(20)
+;
